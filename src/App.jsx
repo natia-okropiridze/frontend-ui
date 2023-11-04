@@ -21,8 +21,12 @@ function App() {
           element: <HomePage />,
         },
         {
-          path: "teachers",
+          path: "/teachers",
           element: <TeachersPage />
+        },
+        {
+          path: "/students",
+          element: null
         }
       ],
     },

@@ -8,15 +8,22 @@ function Header() {
                 <Flex gap={4}>
                     <Box>
                         <Link to="/">Home
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 home
                             </span>
                         </Link>
                     </Box>
                     <Box>
                         <Link to="/teachers">Teachers
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 person
+                            </span>
+                        </Link>
+                    </Box>
+                    <Box>
+                        <Link to="/students">Students
+                            <span className="material-symbols-outlined">
+                                group
                             </span>
                         </Link>
                     </Box>

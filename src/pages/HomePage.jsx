@@ -1,4 +1,5 @@
 import { Container, Heading } from '@chakra-ui/react'
+import TeachersSection from '../partials/TeachersSection'
 
 function HomePage() {
     return (
@@ -8,6 +9,7 @@ function HomePage() {
                     Home Page Content
                 </Heading>
             </Container>
+            <TeachersSection title={"Teachers Section"} />
         </main>
     )
 }
